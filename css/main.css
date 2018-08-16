@@ -1,4 +1,4 @@
-body { margin: 60px auto; width: 70%; }
+body { margin: 60px auto; word-wrap:break-word; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
@@ -6,13 +6,8 @@ a:hover { text-decoration: underline; }
 p, ul { font-size: 1.2em; line-height: 1.4em; color: #333; }
 
 h1, h2, h3, h4, h5 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 3em;  }
-h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
-h5 { font-size: 1.0em; }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul, footer ul { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
@@ -30,4 +25,54 @@ ul.posts li { list-style: none; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 /* Publications */
-ul.publ { font-size: 1.2em; }
+ul.publ { font-size: 1.2em; margin-left: 0em; padding-left: 0.7em; }
+
+/* individual device settings */
+
+/* for smartphones */
+@media only screen and (max-width: 768px){
+    nav ul, footer ul { font-size: 1.2em; }
+    body {width: 90%; }
+
+    h1 { font-size: 2.7em;  }
+    h2 { font-size: 2.4em; }
+    h3 { font-size: 2.0em; }
+    h4 { font-size: 1.6em; }
+    h5 { font-size: 1.0em; }
+}
+
+/* for ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    nav ul, footer ul { font-size: 1.2em; }
+    body {width: 90%; }
+
+    h1 { font-size: 2.7em; }
+    h2 { font-size: 2.4em; }
+    h3 { font-size: 2.0em; }
+    h4 { font-size: 1.6em; }
+    h5 { font-size: 1.0em; }
+}
+
+/* for ipad pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+    nav ul, footer ul { font-size: 1.2em; }
+    body {width: 85%; }
+
+    h1 { font-size: 2.7em;  }
+    h2 { font-size: 2.4em; }
+    h3 { font-size: 2.0em; }
+    h4 { font-size: 1.6em; }
+    h5 { font-size: 1.0em; }
+}
+
+/* all larger devices (laptoprs, desktops etc.) */
+@media only screen and (min-width: 1025px) {
+    nav ul, footer ul { font-size: 1em;}
+    body { width: 60%; }
+
+    h1 { font-size: 3em;  }
+    h2 { font-size: 2.7em; }
+    h3 { font-size: 2.3em; }
+    h4 { font-size: 1.9em; }
+    h5 { font-size: 1.0em; }
+}

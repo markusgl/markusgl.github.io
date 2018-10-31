@@ -25,8 +25,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
-    /*color:#1F618D;*/
-    color: #808080;
+    color:#1F618D;    
 }
 
 
@@ -47,7 +46,7 @@ i { color: #5D6D7E   ;  font-size: 50px;  margin-right: 0.2em;  }
 .title-container .container-items h5 { font-family: 'Roboto', sans-serif;  margin: 0.5em; }
 .title-container .container-items .grade {  font-size: 1.1em;  color: #2E4053; margin-top: 1.2em;}
 .title-container .container-items .meta { font-size: 0.8em;  color: #7F8C8D; margin-bottom: 1.0em;}
-.title-container .container-items .cv-description { display:block;  font-family:'Roboto', sans-serif; text-align: justify;}
+.title-container .container-items .cv-description { display:block;  font-family:'Roboto', sans-serif; text-align: justify; font-size: 0.9em;}
 
 .title-container .programming-lang-items .lang-item { margin: 0.5em; display: table-row;  }
 .title-container .programming-lang-items h5 { padding-right: 2.0em; display: table-cell; }
@@ -60,11 +59,9 @@ ul.publ ul { font-size: 1.0em; }
 
 /*a.codebutton {padding: .2rem; font-size: .8rem; color: rgb(2,133,203); border: 1px solid transparent; border-radius: .2rem; border-color: rgb(2,133,203);}*/
 a.codebutton {font-size: 0.9em;}
-ul.publ a {/*color: rgb(2,133,203); */ color: #3B89C9;}
 /*ul.publ a {color: #585858;  border-bottom: 1px dashed #000;}*/
 
 /* individual device settings */
-
 /* for smartphones */
 @media only screen and (max-width: 768px){
     nav ul, footer ul { font-size: 1.2em; }

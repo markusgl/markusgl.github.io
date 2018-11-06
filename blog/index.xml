@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogm</title>
-    <link>https://example.com/blog/</link>
+    <link>https://markusgl.github.io/blog/</link>
     <description>Recent content on Blogm</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Markus Glas 2018</copyright>
     <lastBuildDate>Sat, 03 Nov 2018 17:44:36 -0700</lastBuildDate>
     
-	<atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://markusgl.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Coming soon</title>
-      <link>https://example.com/blog/first/</link>
+      <link>https://markusgl.github.io/blog/first/</link>
       <pubDate>Sat, 03 Nov 2018 17:44:36 -0700</pubDate>
       
-      <guid>https://example.com/blog/first/</guid>
+      <guid>https://markusgl.github.io/blog/first/</guid>
       <description>Coming soon... </description>
     </item>
     

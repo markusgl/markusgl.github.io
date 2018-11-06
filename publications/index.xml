@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Blogm</title>
+    <link>https://example.com/publications/</link>
+    <description>Recent content in Publications on Blogm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; Markus Glas 2018</copyright>
+    
+	<atom:link href="https://example.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
